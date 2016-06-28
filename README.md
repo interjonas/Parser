@@ -28,11 +28,13 @@ Input
   }
   
   Output
-  test.a = test.b
-  test.hello = ::c
-  test.y = ?.r
-  test.a = nested.b
-  ?.x = test.hello
-  ::c = ?.y
+  {
+   test.a = test.b
+   test.hello = ::c
+   test.y = ?.r
+   test.a = nested.b
+   ?.x = test.hello
+   ::c = ?.y
+  }
   
   The '?' symbol represents a variable which could not be found, while '::' represents global variable scope for the given variable.
