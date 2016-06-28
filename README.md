@@ -36,4 +36,4 @@ test.a = nested.b
 ?.x = test.hello
 ::c = ?.y
  ```
- **The '?' symbol represents a variable which could not be found, while '::' represents global variable scope for the given variable.**
+ The '?' symbol represents a variable which could not be found, while '::' represents global variable scope for the given variable.
