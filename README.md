@@ -16,14 +16,15 @@ test
     a = b;
     hello = c;
      y = r;
+     
      nested
      {
-      public:
-        b;
-        
-      a=b
-      x=hello;
-      c=y;
+        public:
+          b;
+          
+        a=b
+        x=hello;
+        c=y;
     }
   }
  ```
