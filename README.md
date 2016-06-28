@@ -25,7 +25,7 @@ test
         a=b
         x=hello;
         c=y;
-    }
+      }
   }
  ```
  **Output**
