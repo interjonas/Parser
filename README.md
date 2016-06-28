@@ -3,10 +3,10 @@ Designed a recursive descent parser from scratch by using the given project spec
 
 #Example
 
-Input
-
- a, b, c;
- test
+**Input**
+```
+a, b, c;
+test
   {
     public:
       a,b,helo;
@@ -26,8 +26,9 @@ Input
       c=y;
     }
   }
-  
-  Output
+ ```
+ **Output**
+ ```
   {
    test.a = test.b
    test.hello = ::c
@@ -36,5 +37,5 @@ Input
    ?.x = test.hello
    ::c = ?.y
   }
-  
-  The '?' symbol represents a variable which could not be found, while '::' represents global variable scope for the given variable.
+ ```
+ The '?' symbol represents a variable which could not be found, while '::' represents global variable scope for the given variable.
