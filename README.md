@@ -7,7 +7,7 @@ Input
 
  a, b, c;
  test
- {
+  {
     public:
       a,b,helo;
     private:
