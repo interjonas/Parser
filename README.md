@@ -3,7 +3,7 @@ Designed a recursive descent parser from scratch by using the given project spec
 
 #Example
 
-**Input**
+**User Input**
 ```
 a, b, c;
 test
@@ -28,7 +28,7 @@ test
       }
   }
  ```
- **Output**
+ **Program Output**
 ```
 test.a = test.b
 test.hello = ::c
